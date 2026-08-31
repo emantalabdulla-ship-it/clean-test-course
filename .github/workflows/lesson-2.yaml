@@ -22,8 +22,8 @@ jobs:
         run: echo Placeholder for Deployment
 
   build_and_test:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v5
